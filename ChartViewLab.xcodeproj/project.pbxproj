@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE43A95E1FB1D0FF005DAEFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A95D1FB1D0FF005DAEFF /* AppDelegate.m */; };
+		AE43A9611FB1D0FF005DAEFF /* RDLChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A9601FB1D0FF005DAEFF /* RDLChartViewController.m */; };
+		AE43A9641FB1D0FF005DAEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE43A9621FB1D0FF005DAEFF /* Main.storyboard */; };
+		AE43A9661FB1D0FF005DAEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE43A9651FB1D0FF005DAEFF /* Assets.xcassets */; };
+		AE43A9691FB1D0FF005DAEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE43A9671FB1D0FF005DAEFF /* LaunchScreen.storyboard */; };
+		AE43A96C1FB1D0FF005DAEFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A96B1FB1D0FF005DAEFF /* main.m */; };
+		AE43A9751FB1D1CA005DAEFF /* RDLPushUpsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A9741FB1D1CA005DAEFF /* RDLPushUpsModel.m */; };
+		AE43A9781FB1D3E0005DAEFF /* RDLChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A9771FB1D3E0005DAEFF /* RDLChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE43A9591FB1D0FF005DAEFF /* ChartViewLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartViewLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE43A95C1FB1D0FF005DAEFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE43A95D1FB1D0FF005DAEFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE43A95F1FB1D0FF005DAEFF /* RDLChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDLChartViewController.h; sourceTree = "<group>"; };
+		AE43A9601FB1D0FF005DAEFF /* RDLChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDLChartViewController.m; sourceTree = "<group>"; };
+		AE43A9631FB1D0FF005DAEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE43A9651FB1D0FF005DAEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE43A9681FB1D0FF005DAEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE43A96A1FB1D0FF005DAEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE43A96B1FB1D0FF005DAEFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE43A9721FB1D16F005DAEFF /* RDLChartPointProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDLChartPointProtocol.h; sourceTree = "<group>"; };
+		AE43A9731FB1D1CA005DAEFF /* RDLPushUpsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDLPushUpsModel.h; sourceTree = "<group>"; };
+		AE43A9741FB1D1CA005DAEFF /* RDLPushUpsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDLPushUpsModel.m; sourceTree = "<group>"; };
+		AE43A9761FB1D3E0005DAEFF /* RDLChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDLChartView.h; sourceTree = "<group>"; };
+		AE43A9771FB1D3E0005DAEFF /* RDLChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDLChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE43A9561FB1D0FF005DAEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE43A9501FB1D0FE005DAEFF = {
+			isa = PBXGroup;
+			children = (
+				AE43A95B1FB1D0FF005DAEFF /* ChartViewLab */,
+				AE43A95A1FB1D0FF005DAEFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE43A95A1FB1D0FF005DAEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE43A9591FB1D0FF005DAEFF /* ChartViewLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE43A95B1FB1D0FF005DAEFF /* ChartViewLab */ = {
+			isa = PBXGroup;
+			children = (
+				AE43A95C1FB1D0FF005DAEFF /* AppDelegate.h */,
+				AE43A95D1FB1D0FF005DAEFF /* AppDelegate.m */,
+				AE43A95F1FB1D0FF005DAEFF /* RDLChartViewController.h */,
+				AE43A9601FB1D0FF005DAEFF /* RDLChartViewController.m */,
+				AE43A9621FB1D0FF005DAEFF /* Main.storyboard */,
+				AE43A9651FB1D0FF005DAEFF /* Assets.xcassets */,
+				AE43A9671FB1D0FF005DAEFF /* LaunchScreen.storyboard */,
+				AE43A96A1FB1D0FF005DAEFF /* Info.plist */,
+				AE43A96B1FB1D0FF005DAEFF /* main.m */,
+				AE43A9721FB1D16F005DAEFF /* RDLChartPointProtocol.h */,
+				AE43A9731FB1D1CA005DAEFF /* RDLPushUpsModel.h */,
+				AE43A9741FB1D1CA005DAEFF /* RDLPushUpsModel.m */,
+				AE43A9761FB1D3E0005DAEFF /* RDLChartView.h */,
+				AE43A9771FB1D3E0005DAEFF /* RDLChartView.m */,
+			);
+			path = ChartViewLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE43A9581FB1D0FF005DAEFF /* ChartViewLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE43A96F1FB1D0FF005DAEFF /* Build configuration list for PBXNativeTarget "ChartViewLab" */;
+			buildPhases = (
+				AE43A9551FB1D0FF005DAEFF /* Sources */,
+				AE43A9561FB1D0FF005DAEFF /* Frameworks */,
+				AE43A9571FB1D0FF005DAEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartViewLab;
+			productName = ChartViewLab;
+			productReference = AE43A9591FB1D0FF005DAEFF /* ChartViewLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE43A9511FB1D0FE005DAEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RDL;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dmitriy Frolov";
+				TargetAttributes = {
+					AE43A9581FB1D0FF005DAEFF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE43A9541FB1D0FE005DAEFF /* Build configuration list for PBXProject "ChartViewLab" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE43A9501FB1D0FE005DAEFF;
+			productRefGroup = AE43A95A1FB1D0FF005DAEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE43A9581FB1D0FF005DAEFF /* ChartViewLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE43A9571FB1D0FF005DAEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE43A9691FB1D0FF005DAEFF /* LaunchScreen.storyboard in Resources */,
+				AE43A9661FB1D0FF005DAEFF /* Assets.xcassets in Resources */,
+				AE43A9641FB1D0FF005DAEFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE43A9551FB1D0FF005DAEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE43A9781FB1D3E0005DAEFF /* RDLChartView.m in Sources */,
+				AE43A9611FB1D0FF005DAEFF /* RDLChartViewController.m in Sources */,
+				AE43A96C1FB1D0FF005DAEFF /* main.m in Sources */,
+				AE43A95E1FB1D0FF005DAEFF /* AppDelegate.m in Sources */,
+				AE43A9751FB1D1CA005DAEFF /* RDLPushUpsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE43A9621FB1D0FF005DAEFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE43A9631FB1D0FF005DAEFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE43A9671FB1D0FF005DAEFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE43A9681FB1D0FF005DAEFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE43A96D1FB1D0FF005DAEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE43A96E1FB1D0FF005DAEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE43A9701FB1D0FF005DAEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4WZHB92AJ;
+				INFOPLIST_FILE = ChartViewLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ChartViewLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE43A9711FB1D0FF005DAEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4WZHB92AJ;
+				INFOPLIST_FILE = ChartViewLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ChartViewLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE43A9541FB1D0FE005DAEFF /* Build configuration list for PBXProject "ChartViewLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE43A96D1FB1D0FF005DAEFF /* Debug */,
+				AE43A96E1FB1D0FF005DAEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE43A96F1FB1D0FF005DAEFF /* Build configuration list for PBXNativeTarget "ChartViewLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE43A9701FB1D0FF005DAEFF /* Debug */,
+				AE43A9711FB1D0FF005DAEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE43A9511FB1D0FE005DAEFF /* Project object */;
+}
